@@ -1,0 +1,171 @@
+ 
+.phone,.mail{
+    display: inline-block;margin: 10px 0px;padding-right: 20px;}
+    /*icon phone and icon mail orange*/
+.ok{
+    padding-right: 10px;color: orange   ;}
+    /*background black and color of the contact white*/
+.top{
+    background-color: black;; color: white;}
+    .top_header{z-index: 3;position: static;}
+/*icon social online*/
+.on{
+ font-size: 2rem;color: white;background-color: black;margin: 10px 5px;float: right;}
+
+.on:hover{
+    color: orange;}
+    
+/*container of icon online and phone mail*/
+.container{
+    background-color: black;display: block;padding: 10px ;}
+/*house build*/
+
+/*meunu bar */
+.container2{box-sizing: border-box;z-index: 2;text-align: center;position: sticky;top:0;right: auto;}
+
+/*menu */
+.menu_decoration{margin-top: 5px;}
+.menu_decoration ul a li{text-decoration: none;color: black;display: inline;}
+.menu_decoration a{margin: 15px 5px;padding-top: 15px; }
+
+/*HOME*/
+
+.menu_decoration .HOME{background: #f1f1f1;padding: 25px 10px 23px 10px;position: relative;display: inline  ;}
+/*slider mid*/
+/*smaall mid */
+.container3{padding: 45px 0;}
+.container .content2{color: white;}
+.container .ALLYOU{text-align: right; font-size: 18px;}
+.container .btn{background-color: #ffba00;border: solid white 2px;padding: 4px 35px;display: inline-block;}
+/*3 picture mid4*/
+.container4{background-color: white;}
+.container .pic1 ,.pic2,.pic3{width: 100%;height: 40%;margin-top: 30px;}
+/*mid5*/
+ .background_gray{background-color: #f1f1f1;background-size: cover;}
+.container5 .active{color: orange;}
+.container5 .mid5{color: black;}
+.container5 .mid5:hover{color: orange;border-bottom: orange solid 2px;}
+.container .navbar{margin-left: -24px;}
+/*8img*/
+
+.container .imgg{width: 20%;}
+
+/*PHAN CHUA BIET LAM*/
+.golden .aka {
+
+  background-image: url(../img/picture1.jpg);
+  background-size: cover;  
+
+  padding-right: 200px;    
+  width: 200px;
+  height: 200px;
+  
+}
+.golden{display: inline-block;margin-right: -4px;}
+.ctn1{margin-left: 4px;}
+.golden .akaa{box-sizing: border-box;opacity: 0;position: relative;top: 100px;left: 40px;color: black;text-align: center;}
+.golden .aka:hover  .akaa{background: white;opacity: 1;}
+/*MID 7:LASTEST */
+.background_gray1{background-color: #f1f1f1;background-size: cover;padding-bottom: 100px;}
+.container6{background-color: #f1f1f1;}
+.container .picture{width: 100%;height: 30%;}
+.container .ROAD,.BUILDING_PROCEDUE,.LARGE,.BUILDING_CONSTUCTION{color: black;}
+.container .ROAD:hover{color: orange;text-decoration: none;}.container .BUILDING_CONSTRUCTOR:hover{color: orange;text-decoration: none;}
+.container .BUILDING_PROCEDUE:hover{color: orange;text-decoration: none;}.container .LARGE:hover{color: orange;text-decoration: none;}
+.container h6{font-size: 10px;margin-top: -10px;}
+.container p{font-size: 15px;}
+/*fotter 1*/
+.background_black{padding-bottom: 100px;background-color: black;}
+.container7{color: white;}
+.footer .btn{background-color: #666;display: inline-block;font-size: 11px;margin: 2px;padding: 12px 15px;}
+.footer .btn:hover{background-color: orange;}
+.footer .textfooter1,.textfooter2{margin-top: -15px;}
+.footer .locon{z-index: 5;color: black;background-color: white;position: fixed;border: solid black 1px;right: 0px;top: 300px;font-size: 20px;padding: 5px 10px 5px 10px;}
+.footer img{width:  93px;;height: 90px;margin-top: 20px;margin-bottom: -20px;float: left;}
+/*footer copy right*/
+.copyright{padding: 5px 0;text-align: center;color: white;}
+/* DROPDOWN TOP HEADER */
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  /* The container  needed to position the dropdown content */
+  .dropdown {    
+    display: inline-block;
+  }  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 167px;
+   z-index: 1;
+   font-size: 13px; 
+  } 
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 5px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1;color: orange;}
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: white;border-bottom: orange 2px solid;}
+  /*carusel-------------------------------------------cauuusel-----------------*/
+ /*size anh*/
+  .carousel-inner  .item  img,
+.carousel-inner  .item  a  img {
+    width: 70%;
+    margin: auto;
+}
+/*carusel1*/
+.fullscreencarusel .carusel-content{background-image: url(https://housebuild.mura.mitrahsoft.com/housebuild/cache/file/AE52D503-9BAE-EF5D-90952081F13983C1.jpg);background-size: cover;padding: 200px 0;filter: brightness(90%) ;}/*carusel picture 1*/
+.fullscreencarusel .ok{color: white;font-weight: bold;padding-left: 100px;}/*carusel1 h1*/
+.fullscreencarusel .ok2{color: #ffba00 ;padding-left: 100px;font-weight: bold;}/*carusel 1 h2*/
+.fullscreencarusel .caruel1_text{color: white;padding-left: 100px;float: right;}/*carusel lorem*/
+.fullscreencarusel .button_carusel1{border: white 2px solid;padding:2px 50px 2px 50px; margin:0 30px;background-color: inherit;display: inline-block;}
+.fullscreencarusel .button_carusel2{background-color: white;padding:2px 50px 2px 50px; margin:0 10px;border: white 2px solid;}
+.fullscreencarusel .button_carusel2:hover,.button_carusel1:hover{color: #ffba00;border: #ffba00 2px solid;}
+/*carusel button*/
+/*carusel2*/
+.fullscreencarusel .carusel-content2{background-image: url(https://housebuild.mura.mitrahsoft.com/housebuild/cache/file/AE52D7BB-0D89-9908-8C87F3887067B4B0.jpg);background-size: cover;padding: 200px 0;}/*carusel picture 2*/
+.fullscreencarusel .button2_carusel1{margin:0 auto ;background-color: inherit;display: inline;}
+.fullscreencarusel .button2_carusel1:hover{color: #ffba00;border: #ffba00 2px solid;}/*carusel button hover*/
+/*carusel3*/
+.fullscreencarusel .carusel-content3{background-image: url(https://housebuild.mura.mitrahsoft.com/housebuild/cache/file/AE52D8CD-AAE6-86BC-D4C7681913637748.jpg);background-size: cover;padding: 200px ;}/*carusel picture3*/
+.fullscreencarusel .carusel3-content{margin-left: 100px;}
+.fullscreencarusel .carusel3_text{padding:10px 20px;padding-right: 15px;background-color: #ffba00;}/*carusel lorem 3*/
+.fullscreencarusel .carusel3_button1,.carusel3_button2{background-color: inherit;;background-size: cover;padding: 2px 20px;margin-left: 100px;}/*carusel button 3*/
+.fullscreencarusel .carusel3_button1:hover{color: #ffba00;border: #ffba00 2px solid;}
+/**/
+ .clients-test{background-image: url(../img/background\ text.PNG);background-size: cover;text-align: center;}
+ /*8 pic*/
+
+ /*mobile ver*/
+
+ @media screen and (max-width: 768px) and (min-width: 576px){
+  .contact{text-align: center;float: right;}
+  .contact .online{float: left;}
+
+  .background_yellow{text-align: center;}
+ 
+  .container4 .row{width: 100%;display: block;}
+}
+@media screen and (max-width: 768px) {
+  .container4 .box{width: 100%;display: inline-block;}
+}
+@media screen and (max-width: 768px) {
+  .fullscreencarusel {display: none;}
+  .background_gray .imgg{width: 100%;}
+  .footer .ftgl{display: inline-block;width: 100%;}
+}
